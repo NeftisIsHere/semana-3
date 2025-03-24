@@ -61,7 +61,7 @@ header h2{
     height: 280px;
     border-radius: 50%;
     overflow: hidden;
-    display: inline;
+    display: inline-block;
     vertical-align: center;
     border: 7px solid #91c7c9;
     margin: 5%;
@@ -73,4 +73,15 @@ header h2{
     width: 100%;
     height: auto;
     display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
