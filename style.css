@@ -63,7 +63,7 @@ section{
 section hr{
     border: 0;
     height: 2px;
-    background: #91c7c9;
+    background: #318183;
     margin: 10px 0;
 }
 
@@ -75,6 +75,19 @@ ul li{
 }
 address p{
     margin: 5px 0;
+}
+address a{
+    color: #216cae;
+    text-decoration: none;
+}
+
+i{
+    color: #318183;
+    margin-right: 8px;
+}
+
+article{
+    margin-bottom: 15px;
 }
 
 /* Creación de clase*/
